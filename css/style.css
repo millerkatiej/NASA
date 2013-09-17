@@ -4,6 +4,11 @@ body > div {
 	margin: 0 auto;
 
 }
+/
+*
+{
+  background-color: red;
+}
 
 
 /*KATIE CSS*/
@@ -36,6 +41,14 @@ aside > ul > li > ul > li {
 
 
 /*ANTHONY CSS*/
+#header
+{
+  width: 950px;
+  height: 65px;
+  /* Testing Uses borders */
+  background-color:rgb(65,90,123);
+
+}
 
 
 
@@ -43,3 +56,12 @@ aside > ul > li > ul > li {
 
 
 /*MATT CSS*/
+
+div > section {
+	width: 760px;
+	background-color: green;
+}
+
+.img_cont {
+	
+}
