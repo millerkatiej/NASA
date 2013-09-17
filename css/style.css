@@ -4,11 +4,6 @@ body > div {
 	margin: 0 auto;
 
 }
-/
-*
-{
-  background-color: red;
-}
 
 
 /*KATIE CSS*/
@@ -21,13 +16,24 @@ body > div {
 
 
 /*ANTHONY CSS*/
-#header
+header
 {
   width: 950px;
   height: 65px;
   /* Testing Uses borders */
   background-color:rgb(65,90,123);
+  background-image:url(../images/logo.png);
+}
 
+
+footer
+{
+
+  background-image:url(../images/bg-footer.png);
+  bottom: 0px;
+  height: 101px;
+  position:fixed;
+  width: 950px;
 }
 
 
