@@ -60,3 +60,12 @@ footer
 
 
 /*MATT CSS*/
+
+div > section {
+	width: 760px;
+	background-color: green;
+}
+
+.img_cont {
+	
+}
