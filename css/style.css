@@ -18,6 +18,7 @@ body > div {
   font-size: 12px;
   line-height: 20px;
   background-color: #09234A;
+  float: left;
 }
 
 aside > ul > li{
@@ -60,6 +61,7 @@ aside > ul > li > ul > li {
 .content_top {
 	width: 760px;
 	background-color: green;
+	float: left;
 }
 
 .img_cont {
