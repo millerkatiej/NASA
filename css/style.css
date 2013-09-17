@@ -4,7 +4,7 @@ body {
 
 body > div {
 
-	width: 960px;
+	width: 950px;
 	margin: 0 auto;
 
 }
@@ -79,18 +79,38 @@ footer
 /*MATT CSS*/
 
 .content_top {
-	width: 760px;
-
-	background-color: green;
+	width: 750px;
+	background-color: white;
 	float: left;
+	border-top-right-radius: 35px;
+}
+.content_top > ul {
+margin-left: -20px;
+}
+
+.content_top > ul > li {
+	display: inline-block;
+	list-style: none;
+
 }
 
 .img_cont {
-
+background-color: white;
 }
 
 .clear {
 
 	clear: both;
+
+}
+
+
+.social_btn {
+	margin-top: 15px;
+}
+
+.social_btn img:nth-of-type(1) {
+	display: inline-block;
+	margin-left: 275px;
 
 }
