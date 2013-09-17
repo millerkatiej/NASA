@@ -1,14 +1,14 @@
+body {
+  background-image: url('../images/background.jpg');
+}
+
 body > div {
 
 	width: 960px;
 	margin: 0 auto;
 
 }
-/
-*
-{
-  background-color: red;
-}
+
 
 
 /*KATIE CSS*/
@@ -63,5 +63,5 @@ div > section {
 }
 
 .img_cont {
-	
+
 }
