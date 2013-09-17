@@ -1,3 +1,7 @@
+body {
+  background-image: url('../images/background.jpg');
+}
+
 body > div {
 
 	width: 960px;
@@ -27,9 +31,11 @@ aside > ul > li > ul > li {
 }
 
 #home {
-  margin:0;
-  padding:0;
   background:url("images/leftnav_home_on.jpg") no-repeat;
+}
+
+#home:hover img {
+  visibility:hidden;
 }
 
 
@@ -56,7 +62,7 @@ footer
   background-image:url(../images/bg-footer.png);
   bottom: 0px;
   height: 101px;
-  position:fixed;
+  position:relative;
   width: 950px;
 }
 
