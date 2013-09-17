@@ -10,7 +10,6 @@ body > div {
 }
 
 
-
 /*KATIE CSS*/
 #leftnav {
   width: 200px;
@@ -41,13 +40,30 @@ aside > ul > li > ul > li {
 
 
 /*ANTHONY CSS*/
-#header
+
+#lowerheader
+{
+  height:79px;
+  width:950px;
+}
+header
 {
   width: 950px;
   height: 65px;
   /* Testing Uses borders */
   background-color:rgb(65,90,123);
+  background-image:url(../images/logo.png);
+}
 
+
+footer
+{
+
+  background-image:url(../images/bg-footer.png);
+  bottom: 0px;
+  height: 101px;
+  position:fixed;
+  width: 950px;
 }
 
 
@@ -59,7 +75,7 @@ aside > ul > li > ul > li {
 
 div > section {
 	width: 760px;
-	background-color: green;
+
 }
 
 .img_cont {
