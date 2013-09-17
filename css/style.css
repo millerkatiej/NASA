@@ -41,16 +41,17 @@ aside > ul > li > ul > li {
 
 /*ANTHONY CSS*/
 
-#lowerheader
+#spacing
 {
   height:79px;
   width:950px;
+  background-color: red;
+
 }
 header
 {
   width: 950px;
   height: 65px;
-  /* Testing Uses borders */
   background-color:rgb(65,90,123);
   background-image:url(../images/logo.png);
 }
