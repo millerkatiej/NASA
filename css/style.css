@@ -15,20 +15,28 @@ body > div {
   width: 200px;
   font-family: Arial, sans-serif;
   font-size: 12px;
-  line-height: 20px;
+  line-height: 30px;
   background-color: #09234A;
   float: left;
 }
 
 aside > ul > li{
   list-style-type: none;
-  margin-left: -40px;
-  margin-bottom: -6px;
 }
 
-aside > ul > li > ul > li {
+ul {
+  padding: 0;
+}
+
+#dwarf {
+  color: white;
+}
+
+.noindent {
   list-style-type: none;
-  margin-left: -25px;
+  padding-left: 20px;
+  color: #7a609e;
+  background-color: #36223E;
 }
 
 .home {
@@ -42,6 +50,89 @@ aside > ul > li > ul > li {
   background-image: url('../images/leftnav_home_on.jpg');
 }
 
+.news {
+  background-image: url('../images/leftnav_news_off.jpg');
+  background-repeat: no-repeat;
+  width: 200px;
+  height: 30px;
+}
+
+.news:hover {
+  background-image: url('../images/leftnav_news_on.jpg');
+}
+
+.planets {
+  background-image: url('../images/leftnav_planets_sel.jpg');
+  background-repeat: no-repeat;
+  width: 200px;
+  height: 30px;
+}
+
+.missions {
+  background-image: url('../images/leftnav_missions_off.jpg');
+  background-repeat: no-repeat;
+  width: 200px;
+  height: 30px;
+}
+
+.missions:hover {
+  background-image: url('../images/leftnav_missions_on.jpg');
+}
+
+.science {
+  background-image: url('../images/leftnav_scitech_off.jpg');
+  background-repeat: no-repeat;
+  width: 200px;
+  height: 30px;
+}
+
+.science:hover {
+  background-image: url('../images/leftnav_scitech_on.jpg');
+}
+
+.multimedia {
+  background-image: url('../images/leftnav_multimedia_off.jpg');
+  background-repeat: no-repeat;
+  width: 200px;
+  height: 30px;
+}
+
+.multimedia:hover {
+  background-image: url('../images/leftnav_multimedia_on.jpg');
+}
+
+.people {
+  background-image: url('../images/leftnav_people_off.jpg');
+  background-repeat: no-repeat;
+  width: 200px;
+  height: 30px;
+}
+
+.people:hover {
+  background-image: url('../images/leftnav_people_on.jpg');
+}
+
+.kids {
+  background-image: url('../images/leftnav_kids_off.jpg');
+  background-repeat: no-repeat;
+  width: 200px;
+  height: 30px;
+}
+
+.kids:hover {
+  background-image: url('../images/leftnav_kids_on.jpg');
+}
+
+.educ {
+  background-image: url('../images/leftnav_educ_off.jpg');
+  background-repeat: no-repeat;
+  width: 200px;
+  height: 30px;
+}
+
+.educ:hover {
+  background-image: url('../images/leftnav_educ_on.jpg');
+}
 
 /*ANTHONY CSS*/
 
@@ -56,7 +147,7 @@ header
 {
   width: 950px;
   height: 65px;
-  background-color:rgb(65,90,123);
+  background-color:rgb(24,50,88);
   background-image:url(../images/logo.png);
 }
 
@@ -72,7 +163,23 @@ footer
 }
 
 
+#txt-right
+{
+  background-image:url('../images/txt-right.png');
+  float: right;
+  height:79px;
+  width:270px;
 
+
+}
+#txt-left
+{
+  background-image:url('../images/txt-left.png');
+  float: left;
+  height:79px;
+  width:372px;
+
+}
 
 
 
@@ -80,12 +187,13 @@ footer
 
 .content_top {
 	width: 750px;
+
 	background-color: white;
 	float: left;
 	border-top-right-radius: 35px;
 }
 .content_top > ul {
-margin-left: -20px;
+margin-left: px;
 }
 
 .content_top > ul > li {
