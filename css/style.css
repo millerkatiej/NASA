@@ -60,7 +60,7 @@ header
 footer
 {
 
-  background-image:url(../images/bg-footer.png);
+  background-image:url('../images/bg-footer.png');
   bottom: 0px;
   height: 101px;
   position:relative;
@@ -82,5 +82,11 @@ footer
 }
 
 .img_cont {
+
+}
+
+.clear {
+
+	clear: both;
 
 }
