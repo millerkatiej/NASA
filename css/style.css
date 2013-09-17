@@ -34,6 +34,12 @@ aside > ul > li > ul > li {
 
 
 /*ANTHONY CSS*/
+
+#lowerheader
+{
+  height:79px;
+  width:950px;
+}
 header
 {
   width: 950px;
@@ -63,9 +69,9 @@ footer
 
 div > section {
 	width: 760px;
-	background-color: green;
+
 }
 
 .img_cont {
-	
+
 }
