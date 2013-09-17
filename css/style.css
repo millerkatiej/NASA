@@ -1,14 +1,14 @@
+body {
+  background-image: url('../images/background.jpg');
+}
+
 body > div {
 
 	width: 960px;
 	margin: 0 auto;
 
 }
-/
-*
-{
-  background-color: red;
-}
+
 
 
 /*KATIE CSS*/
@@ -32,9 +32,11 @@ aside > ul > li > ul > li {
 }
 
 #home {
-  margin:0;
-  padding:0;
   background:url("images/leftnav_home_on.jpg") no-repeat;
+}
+
+#home:hover img {
+  visibility:hidden;
 }
 
 
@@ -61,5 +63,5 @@ aside > ul > li > ul > li {
 }
 
 .img_cont {
-	
+
 }
