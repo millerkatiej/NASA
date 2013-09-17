@@ -55,7 +55,7 @@ aside > ul > li > ul > li {
 
 /*MATT CSS*/
 
-div > section {
+.content_top {
 	width: 760px;
 	background-color: green;
 }
