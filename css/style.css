@@ -28,6 +28,9 @@ ul {
   padding: 0;
 }
 
+
+
+
 #dwarf {
   color: white;
 }
@@ -39,11 +42,13 @@ ul {
   background-color: #36223E;
 }
 
+
 .home {
   background-image: url('../images/leftnav_home_off.jpg');
   background-repeat: no-repeat;
   width: 200px;
   height: 30px;
+  margin-top: -12px;
 }
 
 .home:hover {
