@@ -17,6 +17,7 @@ body > div {
   font-size: 12px;
   line-height: 20px;
   background-color: #09234A;
+  float: left;
 }
 
 aside > ul > li{
@@ -30,12 +31,15 @@ aside > ul > li > ul > li {
   margin-left: -25px;
 }
 
-#home {
-  background:url("images/leftnav_home_on.jpg") no-repeat;
+.home {
+  background-image: url('../images/leftnav_home_off.jpg');
+  background-repeat: no-repeat;
+  width: 200px;
+  height: 30px;
 }
 
-#home:hover img {
-  visibility:hidden;
+.home:hover {
+  background-image: url('../images/leftnav_home_on.jpg');
 }
 
 
