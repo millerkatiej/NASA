@@ -140,6 +140,13 @@ ul {
   background-image: url('../images/leftnav_educ_on.jpg');
 }
 
+#followus {
+  width: 175px;
+  text-align: center;
+}
+
+
+
 /*ANTHONY CSS*/
 
 #spacing
@@ -232,14 +239,14 @@ border: 1px solid teal;
 }
 
 .bg_color1 {
-  
+
   padding: 10px;
   background-color: white;
   border-top-right-radius: 15px;
 }
 
 .bg_color2 {
-  
+
   margin: 10px 5px 0px 5px;
   padding: 10px;
   background-color: white;
