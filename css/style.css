@@ -19,6 +19,7 @@ body > div {
   line-height: 30px;
   background-color: #09234A;
   float: left;
+  height: 1485px;
 }
 
 aside > ul > li{
@@ -145,8 +146,20 @@ ul {
   text-align: center;
 }
 
+#searchbutton {
+  position: relative;
+  bottom: 28px;
+  left: 160px;
+}
 
+#followus {
+  position: relative;
+  left: 10px;
+}
 
+#currentpage {
+  color: white;
+}
 /*ANTHONY CSS*/
 
 #spacing
